@@ -37,8 +37,6 @@
         --text: #1c1d1b;
         --muted: #6f6a62;
         --border: #d8d0c4;
-        --accent: #d8a49a;
-        --accent-soft: #efd3cd;
       }
 
       * {
@@ -75,6 +73,7 @@
         border-radius: 24px;
         display: block;
         margin-bottom: 24px;
+        object-fit: contain;
       }
 
       h1 {
@@ -85,13 +84,6 @@
         font-weight: 700;
       }
 
-      .updated {
-        margin: 14px 0 0;
-        color: var(--muted);
-        font-size: 15px;
-        font-weight: 500;
-      }
-
       .intro {
         margin-top: 26px;
         padding: 22px;
@@ -100,6 +92,7 @@
         border: 1px solid var(--border);
         color: var(--muted);
         font-weight: 500;
+        font-size: 16px;
       }
 
       .section {
@@ -123,18 +116,6 @@
         color: var(--muted);
         font-size: 16px;
         font-weight: 500;
-      }
-
-      .pill {
-        display: inline-flex;
-        align-items: center;
-        margin-top: 20px;
-        padding: 10px 16px;
-        border-radius: 999px;
-        background: var(--accent-soft);
-        color: var(--text);
-        font-size: 14px;
-        font-weight: 700;
       }
 
       @media (max-width: 640px) {
@@ -172,14 +153,10 @@
 
         <h1>HabitCore Privacy Policy</h1>
 
-        <p class="updated">Last updated: April 2026</p>
-
         <div class="intro">
           HabitCore is a habit, task, routine, and consistency tracking app.
           This policy explains how the app handles your data.
         </div>
-
-        <div class="pill">Local-first by design</div>
       </section>
 
       <section class="section">
@@ -210,15 +187,6 @@
         <p>
           HabitCore may allow exporting and importing habit or task files. Any
           files you choose to share are controlled entirely by you.
-        </p>
-      </section>
-
-      <section class="section">
-        <h2>Future updates</h2>
-        <p>
-          If future versions introduce cloud synchronization, analytics,
-          accounts, crash reporting, or online services, this privacy policy may
-          be updated accordingly.
         </p>
       </section>
     </main>
