@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HabitCore Privacy Policy</title>
+
+    <style>
+      @font-face {
+        font-family: "Manrope";
+        src: url("./assets/Manrope-Regular.ttf") format("truetype");
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: "Manrope";
+        src: url("./assets/Manrope-Medium.ttf") format("truetype");
+        font-weight: 500;
+      }
+
+      @font-face {
+        font-family: "Manrope";
+        src: url("./assets/Manrope-SemiBold.ttf") format("truetype");
+        font-weight: 600;
+      }
+
+      @font-face {
+        font-family: "Manrope";
+        src: url("./assets/Manrope-Bold.ttf") format("truetype");
+        font-weight: 700;
+      }
+
+      :root {
+        --bg: #f7f3ec;
+        --surface: #fffaf2;
+        --surface-soft: #f1ebe1;
+        --text: #1c1d1b;
+        --muted: #6f6a62;
+        --border: #d8d0c4;
+        --accent: #d8a49a;
+        --accent-soft: #efd3cd;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at top, #fffdf8 0%, var(--bg) 55%), var(--bg);
+        color: var(--text);
+        font-family: "Manrope", system-ui, sans-serif;
+        padding: 28px 18px;
+        line-height: 1.75;
+      }
+
+      main {
+        max-width: 820px;
+        margin: 0 auto;
+      }
+
+      .hero {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 34px;
+        padding: 34px;
+        box-shadow: 0 18px 50px rgba(28, 29, 27, 0.08);
+      }
+
+      .logo {
+        width: 86px;
+        height: 86px;
+        border-radius: 24px;
+        display: block;
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 40px;
+        line-height: 1.12;
+        letter-spacing: -1.2px;
+        font-weight: 700;
+      }
+
+      .updated {
+        margin: 14px 0 0;
+        color: var(--muted);
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .intro {
+        margin-top: 26px;
+        padding: 22px;
+        background: var(--surface-soft);
+        border-radius: 26px;
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-weight: 500;
+      }
+
+      .section {
+        margin-top: 18px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 26px;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 22px;
+        line-height: 1.25;
+        letter-spacing: -0.4px;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        margin-top: 20px;
+        padding: 10px 16px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--text);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      @media (max-width: 640px) {
+        body {
+          padding: 18px 12px;
+        }
+
+        .hero {
+          padding: 26px;
+          border-radius: 30px;
+        }
+
+        .logo {
+          width: 74px;
+          height: 74px;
+          border-radius: 22px;
+        }
+
+        h1 {
+          font-size: 31px;
+        }
+
+        .section {
+          padding: 22px;
+          border-radius: 24px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section class="hero">
+        <img src="./assets/logo.png" class="logo" alt="HabitCore logo" />
+
+        <h1>HabitCore Privacy Policy</h1>
+
+        <p class="updated">Last updated: April 2026</p>
+
+        <div class="intro">
+          HabitCore is a habit, task, routine, and consistency tracking app.
+          This policy explains how the app handles your data.
+        </div>
+
+        <div class="pill">Local-first by design</div>
+      </section>
+
+      <section class="section">
+        <h2>Local storage</h2>
+        <p>
+          HabitCore stores your habits, recurring tasks, routines, progress, and
+          generated insights locally on your device.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>No personal data collection</h2>
+        <p>
+          HabitCore does not collect, upload, sell, or share your personal
+          information with external servers.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>No advertising</h2>
+        <p>
+          HabitCore does not use advertising SDKs and does not sell user data.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Export and import</h2>
+        <p>
+          HabitCore may allow exporting and importing habit or task files. Any
+          files you choose to share are controlled entirely by you.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Future updates</h2>
+        <p>
+          If future versions introduce cloud synchronization, analytics,
+          accounts, crash reporting, or online services, this privacy policy may
+          be updated accordingly.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
