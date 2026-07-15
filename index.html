@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HabitCore privacy policy, including local app data, advertising, consent choices, and user rights."
+    />
     <title>HabitCore Privacy Policy</title>
 
     <style>
@@ -37,6 +41,7 @@
         --text: #1c1d1b;
         --muted: #6f6a62;
         --border: #d8d0c4;
+        --accent: #2e7d5b;
       }
 
       * {
@@ -84,6 +89,13 @@
         font-weight: 700;
       }
 
+      .effective-date {
+        margin-top: 12px;
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
       .intro {
         margin-top: 26px;
         padding: 22px;
@@ -111,11 +123,55 @@
         font-weight: 700;
       }
 
-      p {
-        margin: 0;
+      h3 {
+        margin: 20px 0 6px;
+        font-size: 17px;
+        line-height: 1.35;
+      }
+
+      p,
+      li {
         color: var(--muted);
         font-size: 16px;
         font-weight: 500;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      p + p {
+        margin-top: 12px;
+      }
+
+      ul {
+        margin: 10px 0 0;
+        padding-left: 22px;
+      }
+
+      li + li {
+        margin-top: 7px;
+      }
+
+      a {
+        color: var(--accent);
+        font-weight: 650;
+        text-underline-offset: 3px;
+      }
+
+      .notice {
+        margin-top: 14px;
+        padding: 16px 18px;
+        border-left: 4px solid var(--accent);
+        background: var(--surface-soft);
+        color: var(--muted);
+      }
+
+      footer {
+        padding: 28px 8px 10px;
+        color: var(--muted);
+        text-align: center;
+        font-size: 14px;
       }
 
       @media (max-width: 640px) {
@@ -136,6 +192,7 @@
 
         h1 {
           font-size: 31px;
+          letter-spacing: 0;
         }
 
         .section {
@@ -150,46 +207,260 @@
     <main>
       <section class="hero">
         <img src="./assets/images/logo.png" class="logo" alt="HabitCore logo" />
-
         <h1>HabitCore Privacy Policy</h1>
-
+        <div class="effective-date">
+          Effective and last updated: July 15, 2026
+        </div>
         <div class="intro">
           HabitCore is a habit, task, routine, and consistency tracking app.
-          This policy explains how the app handles your data.
+          This policy explains which information remains on your device, which
+          technical information may be processed by advertising services, and
+          the privacy choices available to you.
         </div>
       </section>
 
       <section class="section">
-        <h2>Local storage</h2>
+        <h2>1. Scope and data controller</h2>
         <p>
-          HabitCore stores your habits, recurring tasks, routines, progress, and
-          generated insights locally on your device.
+          This policy applies to the HabitCore mobile application. The HabitCore
+          developer is responsible for the app's data practices. Contact details
+          are provided in the &quot;Contact us&quot; section below and in
+          HabitCore's Google Play listing.
         </p>
       </section>
 
       <section class="section">
-        <h2>No personal data collection</h2>
+        <h2>2. Information stored locally</h2>
         <p>
-          HabitCore does not collect, upload, sell, or share your personal
-          information with external servers.
+          HabitCore stores the information you create locally on your device.
+          This can include plans, goals, tasks, schedules, reminders,
+          categories, notes, links, completion history, streaks, focus sessions,
+          skip and delay history, achievements, preferences, and generated
+          insights.
+        </p>
+        <p>
+          HabitCore does not upload this user-entered tracking content to a
+          HabitCore account or HabitCore-operated server. HabitCore does not
+          attach this content to advertising requests.
         </p>
       </section>
 
       <section class="section">
-        <h2>No advertising</h2>
+        <h2>3. Advertising and Google AdMob</h2>
         <p>
-          HabitCore does not use advertising SDKs and does not sell user data.
+          HabitCore uses the Google Mobile Ads SDK and Google AdMob to display
+          advertisements. Depending on your region, settings, and consent
+          choices, ads may be personalized, non-personalized, or subject to
+          limited or restricted data processing.
+        </p>
+        <p>The Google Mobile Ads SDK may automatically collect and share:</p>
+        <ul>
+          <li>
+            IP address, which may be used to estimate a device's general
+            location.
+          </li>
+          <li>
+            App and advertising interactions, such as app launches, ad views,
+            taps, and video views.
+          </li>
+          <li>
+            Diagnostic and performance information, such as SDK performance,
+            launch time, hangs, crashes, and energy usage.
+          </li>
+          <li>
+            Device or account-related identifiers, including the Android
+            Advertising ID, App Set ID, and other identifiers where applicable.
+          </li>
+        </ul>
+        <p>
+          Google and participating advertising partners may use this information
+          for ad delivery, personalization where permitted, measurement,
+          analytics, security, and fraud prevention. Data transmitted by the
+          Google Mobile Ads SDK is encrypted in transit.
+        </p>
+        <div class="notice">
+          HabitCore does not sell your plans, goals, tasks, notes, completion
+          history, or backup content to advertisers.
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>4. Consent and privacy messages</h2>
+        <p>
+          HabitCore uses Google's User Messaging Platform (UMP) to request and
+          store advertising privacy choices where required. HabitCore checks
+          whether ads may be requested before loading an ad.
+        </p>
+
+        <h3>EEA, United Kingdom, and Switzerland</h3>
+        <p>
+          Users in these regions may receive a European regulations message that
+          explains advertising purposes and vendors and asks for consent where
+          required. You may accept, reject, or manage the available purposes and
+          vendors. Withdrawing consent does not affect processing that occurred
+          before withdrawal.
+        </p>
+
+        <h3>Applicable United States jurisdictions</h3>
+        <p>
+          Users covered by applicable U.S. state privacy laws may use the
+          &quot;Do Not Sell or Share My Personal Information&quot; and targeted
+          advertising controls made available through the U.S. state regulations
+          message. Choices may be communicated using the IAB Global Privacy
+          Platform (GPP) signal and may cause restricted data processing.
+        </p>
+
+        <h3>Changing your choice</h3>
+        <p>
+          When required for your region, open HabitCore and go to
+          <strong>Settings &gt; Privacy &gt; Ad privacy choices</strong>. You
+          can also manage or delete the Android Advertising ID through your
+          device's privacy and ads settings.
         </p>
       </section>
 
       <section class="section">
-        <h2>Export and import</h2>
+        <h2>5. Device storage and advertising technologies</h2>
         <p>
-          HabitCore allows optional export and import of habit/task files. These
-          actions happen only when you choose them, and any shared files are
-          fully under your control.
+          The app and its advertising SDK may use local device storage to retain
+          consent signals, privacy preferences, fraud-prevention information,
+          frequency controls, and advertising identifiers. Mobile apps do not
+          use browser cookies in exactly the same way as websites, but these
+          technologies can serve similar storage and recognition purposes.
+        </p>
+        <p>
+          This privacy-policy page does not contain AdMob ad tags or consent
+          scripts.
         </p>
       </section>
+
+      <section class="section">
+        <h2>6. Export, import, and sharing</h2>
+        <p>
+          HabitCore allows you to export, import, copy, or share plans and full
+          backups. HabitCore performs these actions only when you request them.
+          Files sent through email, messaging, cloud storage, or another app are
+          then processed under that third party's privacy policy. You are
+          responsible for choosing recipients and protecting exported files.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>7. Ask AI and external services</h2>
+        <p>
+          HabitCore can prepare prompts or structured plan content for external
+          AI services. HabitCore does not automatically send this content. When
+          you choose an AI provider, copy a prompt, or share content to another
+          app, the selected content is processed according to that provider's
+          terms and privacy policy. Review prompts before sharing if they
+          contain information you consider private.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>8. Data retention and deletion</h2>
+        <p>
+          Locally stored HabitCore data remains on your device until you delete
+          it, clear the app's storage, restore a different backup, or uninstall
+          the app. Exported copies remain wherever you placed or shared them.
+        </p>
+        <p>
+          Advertising information is retained by Google and advertising partners
+          according to their own policies and legal obligations. HabitCore does
+          not control their independent retention periods.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>9. Your privacy rights and controls</h2>
+        <p>Depending on your location, your rights may include:</p>
+        <ul>
+          <li>
+            Accessing, correcting, exporting, or deleting local app content.
+          </li>
+          <li>Withdrawing advertising consent where consent applies.</li>
+          <li>
+            Opting out of sale, sharing, or targeted advertising where
+            applicable.
+          </li>
+          <li>
+            Resetting or deleting your Android Advertising ID in device
+            settings.
+          </li>
+          <li>Contacting the developer about a privacy request or concern.</li>
+        </ul>
+        <p>
+          Because HabitCore's tracking content is stored locally and is not held
+          in a HabitCore account, the developer generally cannot retrieve or
+          delete that content remotely. Use the controls in the app or on your
+          device.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>10. Children's privacy</h2>
+        <p>
+          HabitCore is not designed to knowingly collect children's personal
+          information on HabitCore-operated servers. Parents or guardians who
+          believe a child's information has been processed improperly should use
+          the contact method below. Advertising configuration and age treatment
+          must follow the app's published target-audience settings and
+          applicable law.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>11. Security and international processing</h2>
+        <p>
+          Local data is protected by the security controls of your device. No
+          storage or transmission method is completely secure. Google and its
+          advertising partners may process advertising information in countries
+          other than your own, subject to their stated safeguards and applicable
+          law.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>12. Third-party privacy information</h2>
+        <ul>
+          <li>
+            <a href="https://policies.google.com/privacy"
+              >Google Privacy Policy</a
+            >
+          </li>
+          <li>
+            <a href="https://policies.google.com/technologies/partner-sites">
+              How Google uses information from apps that use its services
+            </a>
+          </li>
+          <li>
+            <a href="https://myadcenter.google.com/">Google My Ad Center</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>13. Policy changes</h2>
+        <p>
+          This policy may be updated when HabitCore's features, advertising
+          providers, legal requirements, or data practices change. The updated
+          version will show a revised effective date. Material changes may also
+          be communicated in the app or store listing where appropriate.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>14. Contact us</h2>
+        <p>
+          For privacy questions or requests, contact the HabitCore developer
+          using the developer contact email displayed on HabitCore's Google Play
+          listing.
+        </p>
+      </section>
+
+      <footer>
+        HabitCore Privacy Policy &middot; Last updated July 15, 2026
+      </footer>
     </main>
   </body>
 </html>
